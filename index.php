@@ -8,7 +8,11 @@
 	<link rel="stylesheet" type="text/css" href="css/mysite.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<<<<<<< HEAD
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+=======
+	<link rel="stylesheet" type="text/css" href="index.css">
+>>>>>>> e8cb613b6a00a6fb47ae23e64abe5c73ffd80039
 	<link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i" rel="stylesheet">
 </head>
 </head>
@@ -26,8 +30,13 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
+<<<<<<< HEAD
 						<li class="active"><a href="index.php">Home</a></li>
 						<li><a href="sitemap.php">Sitemap</a></li>
+=======
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">Sitemap</a></li>
+>>>>>>> e8cb613b6a00a6fb47ae23e64abe5c73ffd80039
 						<li><a href="blog.php">Blog</a></li>
 						<li><a href="faqs.php">FAQs</a></li>
 						<li><a href="contact.php">Contact</a></li>
@@ -45,6 +54,7 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-4">
+<<<<<<< HEAD
 					<div class="_1khoi">
 						<div class="khoitren">
 							<img src="images/1/3.png" class="img-fluid" style="width: 100%;" alt="">
@@ -173,6 +183,92 @@
 							</div>
 						</div>
 					</div>	<!-- end _1khoi -->
+=======
+					<div class="panel panel-primary">
+						<div class="panel-heading text-center" >
+							<a href="area.php" style="color: white;"><h3>Area</h3></a>
+						</div>
+						<div class="panel-body">
+							<a href="#"><div>Square inches Square millimeters</div></a>
+							<a href="#"><div>Square feet Square meters</div></a>
+							<a href="#"><div>Acres Hectares</div></a>
+							<a href="#"><div>Square yards Square meters</div></a>
+							<a href="#" class="text-center text-danger"><p>Read more</p></a>
+						</div>	
+					</div>
+				</div>
+				<div class="col-sm-4">	
+					<div class="panel panel-primary">
+						<div class="panel-heading text-center">
+							<a href="length.php" style="color: white;"><h3>Length</h3></a>
+						</div>
+						<div class="panel-body">
+						<a href="#"><div>Feet Meters</div></a>
+						<a href="#"><div>Yards - Meters</div></a>
+						<a href="#"><div>Miles Kilometers</div></a>
+						<a href="#"><div>xxx</div></a>
+						<a href="#" class="text-center text-warning"><p>Read more</p></a>
+						</div>
+					</div>						
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-primary">
+						<div class="panel-heading text-center">
+							<a href="volume.php" style="color: white;"><h3>Volume</h3></a>
+						</div>
+						<div class="panel-body">
+							<a href="#"><div>Fluid ounces milliliters</div></a>
+							<a href="#"><div>Gallons liters</div></a>
+							<a href="#"><div>Cubic feet - Cubic meters</div></a>
+							<a href="#"><div>Cubic yards - Cubic meters</div></a>
+							<a href="#" class="text-center text-warning"><p>Read more</p></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="panel panel-primary">
+						<div class="panel-heading text-center">
+							<a href="mass.php" style="color: white;"><h3>Mass</h3></a>
+						</div>
+						<div class="panel-body">
+							<a href="#"><div>Ounces grams</div></a>
+							<a href="#"><div>Pounds kilograms</div></a>
+							<a href="#"><div>Short tons - mega grams</div></a>
+							<a href="#"><div>xxx</div></a>
+							<a href="#" class="text-center text-warning"><p>Read more</p></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-primary">
+						<div class="panel-heading text-center">
+							<a href="temperature.php" style="color: white"><h3>Temperature</h3></a>
+						</div>
+						<div class="panel-body">
+							<a href="#"><div>Fahrenheit Celsius</div></a>
+							<a href="#"><div>Celsius Fahrenheit</div></a>
+							<a href="#"><div>xxx</div></a>
+							<a href="#"><div>xxx</div></a>
+							<a href="#" class="text-center text-warning"><p>Read more</p></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-primary">
+						<div class="panel-heading text-center">
+							<a href="currency.php" style="color: white"><h3>Currency</h3></a>
+						</div>
+						<div class="panel-body">
+							<a href="#"><div>Euro</div></a>
+							<a href="#"><div>United States Dollar</div></a>
+							<a href="#"><div>Japanese Yen</div></a>
+							<a href="#"><div>Chineses Yuan</div></a>
+							<a href="#" class="text-center text-warning"><p>Read more</p></a>
+						</div>
+					</div>
+>>>>>>> e8cb613b6a00a6fb47ae23e64abe5c73ffd80039
 				</div>
 			</div>
 		</div>

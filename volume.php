@@ -5,11 +5,19 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<<<<<<< HEAD
 	<link rel="stylesheet" type="text/css" href="css/mysite.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+=======
+	<link rel="stylesheet" type="text/css" href="mysite.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="1.css">
+>>>>>>> e8cb613b6a00a6fb47ae23e64abe5c73ffd80039
 </head>
 <body>
 	<div class="header">
@@ -25,8 +33,13 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
+<<<<<<< HEAD
 						<li class="active"><a href="index.php">Home</a></li>
 						<li><a href="sitemap.php">Sitemap</a></li>
+=======
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">Sitemap</a></li>
+>>>>>>> e8cb613b6a00a6fb47ae23e64abe5c73ffd80039
 						<li><a href="blog.php">Blog</a></li>
 						<li><a href="faqs.php">FAQs</a></li>
 						<li><a href="contact.php">Contact</a></li>
