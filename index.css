@@ -1,0 +1,23 @@
+* {
+	
+}
+
+.carousel-inner.fixchu h3 {
+	color: white;
+	font-weight: bold;
+    font-size: 46px;
+}
+
+.carousel-inner.fixchu {
+    font-size: 25px;
+}
+body {
+	font-family: 'Cabin', sans-serif;
+}
+.footer {
+    color: white;
+  }
+  .footer a {
+  text-decoration: none;
+  color: white;
+  }

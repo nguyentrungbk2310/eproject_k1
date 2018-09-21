@@ -42,7 +42,7 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="alert alert-success">
-					<h2 class="text-center text-primary content">Length Conversion</h2>
+					<h2 class="text-center text-primary content">Temperature Conversion</h2>
 				</div>
 					<center>Form chuyen doi</center>
 				</div>
