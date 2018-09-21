@@ -1,0 +1,62 @@
+* {
+  
+}
+
+.col-sm-8.contact {
+    margin-left: 170px;
+}
+
+.khoiduoi {
+    position: absolute;
+    width: 360px;
+    height: 235px;
+    opacity: 0;
+    top: 0;
+    transition: all ease 0.4s;
+}
+
+._1khoi:hover .khoiduoi {
+    opacity: 1;
+    top: 0;
+}
+
+.khoitren {
+    position: relative;
+}
+
+
+._1khoi {
+    width: 360px;
+    height: 235px;
+}
+body {
+  font-family: 'Cabin', sans-serif;
+}
+.carousel-inner.fixchu h3 {
+  color: white;
+  font-weight: bold;
+    font-size: 46px;
+}
+
+.carousel-inner.fixchu {
+    font-size: 25px;
+}
+
+.footer {
+    color: white;
+  }
+  .footer a {
+  text-decoration: none;
+  color: white;
+  }
+.red{
+    color:red;
+    }
+.form-area
+{
+  padding: 10px 40px 60px;
+  margin: 10px 0px 60px;
+  }
+
+
+  
