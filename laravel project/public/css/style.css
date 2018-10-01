@@ -1,0 +1,352 @@
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+p {
+  font-size: 15px;
+}
+.fix-image {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:link {
+   text-decoration: none;
+    color: white;
+}
+a:hover {
+   text-decoration: none;
+    color: white;
+}
+#content {
+  margin-top: 50px;
+}
+.navbar {
+      margin-bottom: 0;
+      border: 0;
+      font-size: 15px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 2px;
+      padding: 0 30px;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #337ab7 !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important; 
+  }
+  .banner {
+      background-position: center center;
+      background-size: cover;
+      width: 100%;
+      height: 600px;
+      position: relative;
+  }
+  .banner .banner-box {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background: black;
+    opacity: 0.3;
+    z-index: 1;
+  }
+  .banner .page-title {
+    text-align: center;
+    color: white;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+  }
+  .banner .page-title h1 {
+    font-size: 60px;
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    margin: auto;
+  }
+  .banner .page-title .banner-btn {
+    font-size: 20px;
+    position: absolute;
+    top: 270px;
+    margin: auto;
+    border: 2px solid white;
+    padding: 3px 10px 3px 10px;
+  }
+  .banner .page-title .banner-btn:visited {
+    color: white;
+  }
+  .banner .page-title .banner-btn:hover {
+    background-color: rgb(255, 255, 255,0.2);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+  }
+  #form-conversion {
+    background-image: url(images/anh4.jpg);
+    color: #fff;
+    position: relative;
+  }
+  #form-conversion .dark-mask {
+    position: absolute;
+    width: 100%;
+    height: 337px;
+    background: black;
+    opacity: 0.2;
+    z-index: 1;
+  }
+  .footer {
+    color: white;
+    background: #201a16;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .footer a {
+  text-decoration: none;
+  color: white;
+  }
+  .txtdeepshadow {
+     font-style: italic;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #e0dfdc;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+  }
+
+  /*class of conversion chart*/
+  .view {
+        width: 300px;
+        height: 250px;
+        margin-left: 30px;
+        margin-top: 20px;
+        float: left;
+        /*border: 10px solid #fff;*/
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        box-shadow: 1px 1px 2px #e6e6e6;
+        cursor: default;
+        background: #fff url(../images/bgimg.jpg) no-repeat center center
+    }
+    .view .mask, .view .content {
+        width: 300px;
+        height: 250px;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0
+    }
+    .view img {
+        display: block;
+        position: relative
+    }
+    .view h2 {
+        color: #fff; 
+        text-align: center;
+        position: relative;
+        font-size: 23px;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.85);
+        margin: 20px 0 10px 0;
+    }
+    .view p {
+        font-style: italic;
+        font-size: 15px;
+        position: relative;
+        color: #fff;
+        /*padding: 10px 20px 20px;*/
+        text-align: center
+    }
+    .view a.info {
+        display: inline-block;
+        text-decoration: none;
+        padding: 7px 14px;
+        background: #000;
+        color: #fff;
+        text-transform: uppercase;
+        box-shadow: 0 0 1px #000
+    }
+    .view a.info:hover {
+        box-shadow: 0 0 5px #000
+    }
+    .view-first img { 
+        transition: all 0.2s linear;
+    }
+    .view-first .mask {
+        opacity: 0;
+        background-color: rgba(219,127,8, 0.8); 
+        transition: all 0.4s ease-in-out;
+    }
+    /*.view-first h2 {
+        transform: translateY(-100px);
+        opacity: 0;
+        transition: all 0.2s ease-in-out;
+    }*/
+    .view-first p { 
+        transform: translateY(100px);
+        opacity: 0;
+      transition: all 0.2s linear;
+    }
+    .view-first a.info{
+        opacity: 0;
+      transition: all 0.2s ease-in-out;
+    }
+    .view-first:hover h2 {
+      color: black;
+      background: white;
+      font-size: 27px;
+      opacity: 0.85;
+    }
+    .view-first:hover img { 
+      transform: scale(1.1);
+    } 
+    .view-first:hover .mask { 
+      opacity: 0.7;
+    }
+    /*.view-first:hover h2,*/
+    .view-first:hover p,
+    .view-first:hover a.info {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    .view-first:hover p {
+        transition-delay: 0.1s;
+    }
+    .view-first:hover a.info {
+        transition-delay: 0.2s;
+    }
+   .list-group-item {
+    background-color: #a6afbe;
+    color: white;
+   }
+   a.list-group-item {
+    color: white;
+   }
+  .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-image: url(images/anh3.jpg);
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .box-simple {
+    position: relative;
+    margin-bottom: 10px;
+    height: 170px;
+  }
+  .box-simple-mask {
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    background: rgb(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  .box-content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+  .box-icon {
+    height: 90px;
+    text-align: center;
+  }
+  .box-icon span {
+    font-size: 18px;
+    border: 1px solid #fff;
+    padding: 20px;
+    -moz-border-radius: 50%; /*Firefox*/
+    -webkit-border-radius: 50%;
+    margin-top: 10px;
+  }
+  .box-icon span:hover {
+    font-size: 23px;
+    border-color: #000;
+    color: #000;
+    padding: 25px;
+    background-color: #fff;
+    opacity: 0.6;
+  }
+  .btn1 {
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    border: 2px solid #000;
+    padding: 5px 15px 5px 15px;
+  }
+  .btn1:hover {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  .mask1 {
+    width: 100%;
+    height: 300px;
+    background: rgb(0, 0, 0, 0.6);
+    position: absolute;
+    z-index: 1;
+  }
+  .content1 {
+    position: relative;
+    z-index: 2;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  .content1 h1 {
+    text-align: center;
+    margin-top: 120px;
+  }
+  .text1 {
+    font-size: 36px;
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 100;
+    font-style: normal;
+  }
+  .text2 {
+    font-size: 25px;
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  p {
+    color: #222;
+    font-style: italic;
+    line-height: 1.6em;
+    letter-spacing: .02em;
+    font-weight: 350;
+  }
+  .connect {
+    border: 2px solid #000;
+    height: 65px;
+    padding: 5px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    border-radius: 32.5px 32.5px 32.5px 32.5px;
+  }
+  .connect a {
+    display: inline-block;
+    /*border: 1px solid red;*/
+  }
+
